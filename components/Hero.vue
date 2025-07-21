@@ -1,6 +1,6 @@
 <template>
   <div id="Hero" class="h-screen bg-[#f5f2e8]">
-    <section class="flex flex-col md:flex-row items-center justify-center px-8 py-16 pt-40 space-y-8 md:space-y-0 md:space-x-12 scroll-smooth" data-aos="fade-down">
+    <section class="flex flex-col md:flex-row items-center justify-center px-8 py-16 pt-60 space-y-8 md:space-y-0 md:space-x-12 scroll-smooth" data-aos="fade-down">
       <img
         src="../assets/images/ikuyo.jpg"
         alt="Profile"
