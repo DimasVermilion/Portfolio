@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .bg {
+    @apply bg-[#EAE7DC] text-black;
+  }
+
+  .btn {
+    @apply bg-[#F0CD02] text-[#0B466A];
+  }
+}
