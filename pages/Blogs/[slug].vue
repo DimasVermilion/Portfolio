@@ -16,7 +16,8 @@ import { ref, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 
 const blog = ref(null)
-const apiUrl = 'http://localhost:1337'
+const config = useRuntimeConfig()
+const apiUrl = config.public.API_URL
 const route = useRoute()
 
 onMounted(async () => {

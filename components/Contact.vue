@@ -24,9 +24,9 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
-
+const config = useRuntimeConfig()
+const apiUrl = config.public.API_URL
 const contacts = ref([])
-const apiUrl = 'http://localhost:1337'
 
 onMounted(async () => {
   try {

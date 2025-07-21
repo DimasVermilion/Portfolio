@@ -28,7 +28,8 @@
 import { onMounted, ref } from 'vue'
 
 const blogs = ref([])
-const apiUrl = 'http://localhost:1337'
+const config = useRuntimeConfig()
+const apiUrl = config.public.API_URL
 
 onMounted(async () => {
   const res = await fetch(`${apiUrl}/api/blogs?populate=Images`)
