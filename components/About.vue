@@ -11,11 +11,7 @@
     <div class="flex flex-col md:flex-row items-start md:items-center gap-10 max-w-5xl mt-20">
       
       <!-- Gambar -->
-      <img
-        src="/assets/images/19612.jpg"
-        alt="Profile"
-        class="w-56 h-72 object-cover rounded-md shadow-md"
-      />
+      <img src="/assets/images/19612.jpg" alt="Profile" class="w-56 h-72 object-cover rounded-md shadow-md" />
 
       <!-- Teks -->
       <div class="text-justify">

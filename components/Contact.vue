@@ -5,18 +5,9 @@
       <p class="text-gray-700 mb-10">You can reach me via the following platforms:</p>
 
       <div class="flex justify-center flex-wrap gap-6">
-        <a
-          v-for="contact in contacts"
-          :key="contact.id"
-          :href="contact.Url"   
-          class="flex items-center space-x-3 text-blue-700 hover:text-blue-900 transition"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            v-if="contact.Icon"
-            :src="contact.Icon" alt="icon" class="w-6 h-6"/>
-          <span class="text-base font-medium">{{ contact.Platform }}</span>
+        <a v-for="contact in contacts" :key="contact.id" :href="contact.Url" class="flex items-center space-x-3 text-blue-700 hover:text-blue-900 transition" target="_blank" rel="noopener noreferrer" >
+          <img v-if="contact.Icon" :src="contact.Icon" alt="icon" class="w-6 h-6"/>
+             <span class="text-base font-medium">{{ contact.Platform }}</span>
         </a>
       </div>
     </div>
