@@ -34,4 +34,5 @@ onMounted(async () => {
   const data = await res.json()
   projects.value = data.data.map((item) => item.attributes ?? item)
 })
+
 </script>
