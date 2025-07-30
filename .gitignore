@@ -22,3 +22,7 @@ logs
 .env
 .env.*
 !.env.example
+.bar
+.pelaporan
+.test
+.public
